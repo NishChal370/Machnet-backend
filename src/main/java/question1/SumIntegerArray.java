@@ -7,7 +7,7 @@ import java.util.stream.IntStream;
 
 public class SumIntegerArray {
     public static void main(String[] args) {
-        int[] numberArray=new int[50];
+        int[] numberArray = new int[50];
 
         IntStream.range(1, 51).forEach(i ->{
             numberArray[i-1] = i;

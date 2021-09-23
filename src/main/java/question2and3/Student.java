@@ -17,22 +17,6 @@ public class Student {
         this.semester = semester;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public int getSemester() {
-        return semester;
-    }
-
-    public String getGender() {
-        return gender;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
     @Override
     public String toString() {
         return "Student{" +
@@ -40,7 +24,7 @@ public class Student {
                 ", semester=" + semester +
                 ", age=" + age +
                 ", gender='" + gender + '\'' +
-                '}'+"\n";
+                '}';
     }
 
     public static void main(String[] args) {
@@ -70,7 +54,7 @@ public class Student {
                 .filter(e -> e.name.toLowerCase().startsWith("j") && e.semester == 3)
                 .collect(Collectors.toList());
 
-        System.out.println("Students whose name starts with (j or J) and study in the 3rd semester: "+StudentsNameStartWithJ);
+        System.out.println("Students whose name starts with (j or J) and study in the 3rd semester: \n"+StudentsNameStartWithJ);
 
     }
 }
