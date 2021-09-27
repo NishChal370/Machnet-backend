@@ -14,6 +14,30 @@ public class test {
     }
 }
 
+
+//        while (nowTime.getMonth() < 11){
+//            System.out.println(nowTime.getMonth());
+////        }
+//        System.out.println("nowTime.getYear()"+nowTime.plusYears(-1).toLocalDate());
+//        System.out.println("LocalDateTime.now().toLocalDate()"+LocalDateTime.now().toLocalDate().getMonthValue());
+//        System.out.println("nowTime.getMonthValue()"+nowTime.getMonthValue());
+//        nowTime = nowTime.plusDays(30);
+//        System.out.println(nowTime.getMonthValue());
+
+//        while (nowTime.getMonth() < "2022")
+//        System.out.println("Out "+nowTime.toLocalDate()+" "+ LocalDateTime.now().toLocalDate());
+//                System.out.println(nowTime.toLocalDate().getYear()+"->"+nowTime.toLocalDate().getMonthValue()+"->"+nowTime.toLocalDate().getDayOfMonth());
+//                System.out.println(LocalDateTime.now().toLocalDate().getYear()+"->"+LocalDateTime.now().toLocalDate().getMonthValue()+"->"+LocalDateTime.now().toLocalDate().getDayOfMonth());
+//
+//-----
+//        int year = LocalDate.now().getYear();
+//        String month = (LocalDate.now().getMonthValue() <10)
+//                ? 0+""+LocalDate.now().getMonthValue()
+//                : Integer.toString(LocalDate.now().getMonthValue());
+//        int day = LocalDate.now().getDayOfMonth();
+//        LocalDateTime nowTime = LocalDateTime.of(LocalDate.parse(year+"-"+month+"-"+day), LocalTime.parse("10:00"));//LocalDateTime.now().toLocalDate()
+
+//--
 //
 //
 //import java.time.LocalDateTime;
