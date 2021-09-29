@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="student2"  class="com.example.Springassignment1.task2.Student">
+        <property name = "id" value ="1"/>
+        <property name = "name" value = "Hari Shing"/>
+        <property name = "address"  ref="address"/>
+    </bean>
+
+    <bean name="address" class="com.example.Springassignment1.task2.Address">
+        <property name="address" value="Kathmandu"/>
+    </bean>
+</beans>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean name="address4" class="com.example.Springassignment1.task4.Address">
+        <property name="address" value="KTM"></property>
+    </bean>
+
+<!-- autowire: byType or byName or constructor-->
+    <bean name="student4" class="com.example.Springassignment1.task4.Student" autowire="constructor">
+        <property name="studentId" value="1"></property>
+        <property name="studentName" value="Nischal"></property>
+    </bean>
+</beans>
